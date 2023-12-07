@@ -1,5 +1,5 @@
 // imports
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import axios from 'axios';
 import logo from './cinema projector.png';
@@ -155,8 +155,7 @@ function App() {
       </label>
       <br></br>
       <label>Enter the two letter country code (e.g gb): 
-        <input type="text" 
-        name = "moviecountry"
+        <input type="text"name = "moviecountry"
         value={inputs.moviecountry || ""} 
         onChange={handleChange}
         />
@@ -177,7 +176,7 @@ function App() {
   <div>
     <h2>Available Media:</h2>
     {/* creates table to format the api response in a neat manner */}
-    <table class="container">
+    <table className="container">
       <thead>
         <tr>
           <th><h1>Type</h1></th>
