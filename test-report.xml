@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/sanjughandhi/Documents/TSI /ts is shit/TS is shit with Vite/Movie/test/link.test.js">
+    <testCase name="changes the class when hovered" duration="6"/>
+  </file>
+  <file path="/Users/sanjughandhi/Documents/TSI /ts is shit/TS is shit with Vite/Movie/test/user.input.test.js">
+  </file>
+</testExecutions>
