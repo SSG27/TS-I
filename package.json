@@ -21,7 +21,8 @@
     "jest-environment-jsdom": "^29.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "testing-library": "^0.0.2"
+    "testing-library": "^0.0.2",
+    "axios": "1.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
