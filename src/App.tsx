@@ -17,7 +17,6 @@ function App() {
   const generateTextContent = () => {
     if (responseData) {
       const text = responseData.result.map((item) => {
-        // Customize this based on your data structure
         return `${item.title} - ${item.streamingInfo.gb.map((stream) => stream.service).join(', ')}\n`;
       }).join('\n');
 
@@ -225,8 +224,4 @@ function App() {
 	);
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-
 export default App;
-

@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`updates state on user input 1`] = `
+<section
+  style={
+    {
+      "backgroundColor": "#1F2739",
+      "color": "#fff",
+      "fontFamily": "-apple-system",
+      "fontSize": "1rem",
+      "fontWeight": 1.5,
+      "lineHeight": 1.5,
+      "padding": "0 2em",
+    }
+  }
+>
+  <div
+    style={
+      {
+        "border": "1px solid #e6e6e6",
+        "margin": "0 auto",
+        "marginTop": "50px",
+        "maxWidth": "950px",
+        "padding": "45px 25px 50px 25px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      alt=""
+      src={
+        {
+          "process": [Function],
+        }
+      }
+      style={
+        {
+          "margin": "-90px auto 30px",
+          "marginBottom": "0",
+          "objectFit": "cover",
+          "width": "100px",
+        }
+      }
+    />
+    <div>
+      <p
+        style={
+          {
+            "color": "#FFF842",
+            "fontSize": "1.375rem",
+            "fontWeight": 300,
+            "lineHeight": 1.5,
+            "marginBottom": "25px",
+          }
+        }
+      >
+        Your one stop search for movies to watch.
+      </p>
+    </div>
+    <p
+      style={
+        {
+          "color": "#FB667A",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "marginBottom": "0",
+        }
+      }
+    >
+      Made By
+      <span
+        style={
+          {
+            "fontWeight": 400,
+          }
+        }
+      >
+         · Sanju Ghandhi
+      </span>
+    </p>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <br />
+    <label>
+      Enter the movie title:
+      <input
+        name="movietitle"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label>
+      Enter the two letter country code (e.g gb):
+      <input
+        name="moviecountry"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <input
+      type="submit"
+    />
+  </form>
+  <button
+    onClick={[Function]}
+  >
+    Generate Text Content
+  </button>
+  <h2>
+    Generated Text Content:
+  </h2>
+  <pre />
+  <button
+    onClick={[Function]}
+  >
+    Save Text Content
+  </button>
+</section>
+`;
+
+exports[`updates state on user input 2`] = `
+<section
+  style={
+    {
+      "backgroundColor": "#1F2739",
+      "color": "#fff",
+      "fontFamily": "-apple-system",
+      "fontSize": "1rem",
+      "fontWeight": 1.5,
+      "lineHeight": 1.5,
+      "padding": "0 2em",
+    }
+  }
+>
+  <div
+    style={
+      {
+        "border": "1px solid #e6e6e6",
+        "margin": "0 auto",
+        "marginTop": "50px",
+        "maxWidth": "950px",
+        "padding": "45px 25px 50px 25px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      alt=""
+      src={
+        {
+          "process": [Function],
+        }
+      }
+      style={
+        {
+          "margin": "-90px auto 30px",
+          "marginBottom": "0",
+          "objectFit": "cover",
+          "width": "100px",
+        }
+      }
+    />
+    <div>
+      <p
+        style={
+          {
+            "color": "#FFF842",
+            "fontSize": "1.375rem",
+            "fontWeight": 300,
+            "lineHeight": 1.5,
+            "marginBottom": "25px",
+          }
+        }
+      >
+        Your one stop search for movies to watch.
+      </p>
+    </div>
+    <p
+      style={
+        {
+          "color": "#FB667A",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "marginBottom": "0",
+        }
+      }
+    >
+      Made By
+      <span
+        style={
+          {
+            "fontWeight": 400,
+          }
+        }
+      >
+         · Sanju Ghandhi
+      </span>
+    </p>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <br />
+    <label>
+      Enter the movie title:
+      <input
+        name="movietitle"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label>
+      Enter the two letter country code (e.g gb):
+      <input
+        name="moviecountry"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <input
+      type="submit"
+    />
+  </form>
+  <button
+    onClick={[Function]}
+  >
+    Generate Text Content
+  </button>
+  <h2>
+    Generated Text Content:
+  </h2>
+  <pre />
+  <button
+    onClick={[Function]}
+  >
+    Save Text Content
+  </button>
+</section>
+`;
+
+exports[`updates state on user input 3`] = `
+<section
+  style={
+    {
+      "backgroundColor": "#1F2739",
+      "color": "#fff",
+      "fontFamily": "-apple-system",
+      "fontSize": "1rem",
+      "fontWeight": 1.5,
+      "lineHeight": 1.5,
+      "padding": "0 2em",
+    }
+  }
+>
+  <div
+    style={
+      {
+        "border": "1px solid #e6e6e6",
+        "margin": "0 auto",
+        "marginTop": "50px",
+        "maxWidth": "950px",
+        "padding": "45px 25px 50px 25px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      alt=""
+      src={
+        {
+          "process": [Function],
+        }
+      }
+      style={
+        {
+          "margin": "-90px auto 30px",
+          "marginBottom": "0",
+          "objectFit": "cover",
+          "width": "100px",
+        }
+      }
+    />
+    <div>
+      <p
+        style={
+          {
+            "color": "#FFF842",
+            "fontSize": "1.375rem",
+            "fontWeight": 300,
+            "lineHeight": 1.5,
+            "marginBottom": "25px",
+          }
+        }
+      >
+        Your one stop search for movies to watch.
+      </p>
+    </div>
+    <p
+      style={
+        {
+          "color": "#FB667A",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "marginBottom": "0",
+        }
+      }
+    >
+      Made By
+      <span
+        style={
+          {
+            "fontWeight": 400,
+          }
+        }
+      >
+         · Sanju Ghandhi
+      </span>
+    </p>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <br />
+    <label>
+      Enter the movie title:
+      <input
+        name="movietitle"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label>
+      Enter the two letter country code (e.g gb):
+      <input
+        name="moviecountry"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <input
+      type="submit"
+    />
+  </form>
+  <button
+    onClick={[Function]}
+  >
+    Generate Text Content
+  </button>
+  <h2>
+    Generated Text Content:
+  </h2>
+  <pre />
+  <button
+    onClick={[Function]}
+  >
+    Save Text Content
+  </button>
+</section>
+`;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/sanjughandhi/Documents/TSI /ts is shit/TS is shit with Vite/Movie/test/link.test.js">
-    <testCase name="changes the class when hovered" duration="7"/>
+  <file path="/Users/sanjughandhi/Documents/TSI /React App/Movie/test/user.input.test.ts">
+    <testCase name="updates state on user input" duration="8"/>
   </file>
 </testExecutions>
