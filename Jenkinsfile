@@ -47,11 +47,11 @@ pipeline {
     
         stage('Build'){
             steps {
-                node {
+
                     sshagent (credentials: ['sg-pc']) {
                         sh 'ssh -o StrictHostKeyChecking=no 51.20.41.219 "git clone https://github.com/SSG27/TS-I.git && npm install && sudo npm run dev -- -p 80 -H 0.0.0.0"'
                     }
-                }
+
             }
         }
     }
