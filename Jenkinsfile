@@ -5,19 +5,17 @@ pipeline {
     tools {
         nodejs "NodeJS"
     }
-    
+
     stages {
 
         stage('Clone repo') {
             steps {
-                // clone the repository
                 git branch: 'main', url: 'https://github.com/SSG27/TS-I.git'
             }
         }
         
         stage('Install Dependencies') {
             steps {
-                // Install Node.js dependencies using npm
                 sh 'npm install'
             }
         }
@@ -39,12 +37,21 @@ pipeline {
             }
         }
 
-        stage('Run npm run dev') {
+        // stage('Build') {
+        //     steps {
+        //         sh 'npm run dev'
+        //         input message: 'Finished using the web site? (Click "Proceed" to continue)' 
+        //         sh './jenkins/scripts/kill.sh'
+        //     }
+        // }
+    
+        stage('Build'){
             steps {
-                // Run 'npm run dev'
-                sh 'npm run dev'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)' 
-                sh './jenkins/scripts/kill.sh'
+                node {
+                    sshagent (credentials: ['sg-pc']) {
+                        sh 'ssh -o StrictHostKeyChecking=no 51.20.41.219 "git clone https://github.com/SSG27/TS-I.git && npm install && sudo npm run dev -- -p 80 -H 0.0.0.0"'
+                    }
+                }
             }
         }
     }
