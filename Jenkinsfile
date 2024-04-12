@@ -49,7 +49,7 @@ pipeline {
             steps {
 
                     sshagent (credentials: ['sg-pc']) {
-                        sh 'ssh -o StrictHostKeyChecking=no ubuntu@51.20.41.219 "git clone https://github.com/SSG27/TS-I.git && cd TS-I && npm install && sudo npm run dev -- -p 80 -H 0.0.0.0"'
+                        sh 'ssh -o StrictHostKeyChecking=no ubuntu@51.20.41.219 "rm -rf TS-I && git clone https://github.com/SSG27/TS-I.git && cd TS-I && npm install && sudo npm run dev -- -p 80 -H 0.0.0.0"'
                     }
 
             }
