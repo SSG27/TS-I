@@ -18,12 +18,6 @@ pipeline {
             }
         }
         
-        stage('Run npm run dev') {
-            steps {
-                // Run 'npm run dev'
-                sh 'npm run dev'
-            }
-        }
         stage('SonarQube analysis') {
             steps {
                 script {
@@ -32,6 +26,13 @@ pipeline {
                 withSonarQubeEnv('SonarCloud') {
                 sh "${scannerHome}/bin/sonar-scanner"
                 }
+            }
+        }
+        
+        stage('Run npm run dev') {
+            steps {
+                // Run 'npm run dev'
+                sh 'npm run dev'
             }
         }
     }
