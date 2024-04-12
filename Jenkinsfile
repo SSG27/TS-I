@@ -4,9 +4,9 @@ pipeline {
         nodejs "NodeJS"
     }
     stages {
-        stage('Checkout') {
+        stage('Clone repo') {
             steps {
-                // Checkout the source code from your repository
+                // clone the repository
                 git branch: 'main', url: 'https://github.com/SSG27/TS-I.git'
             }
         }
@@ -20,8 +20,18 @@ pipeline {
         
         stage('Run npm run dev') {
             steps {
-                // Run npm run dev command
+                // Run 'npm run dev'
                 sh 'npm run dev'
+            }
+        }
+        stage('SonarQube analysis') {
+            steps {
+                script {
+                    scannerHome = tool '<SonarQube'
+                }
+                withSonarQubeEnv('SonarCloud') {
+                sh "${scannerHome}/bin/sonar-scanner"
+                }
             }
         }
     }
