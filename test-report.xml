@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/sanjughandhi/Documents/TSI /React App/Movie/test/user.input.test.ts">
+  <file path="/Users/sanjughandhi/Documents/GitHub/TS-I/test/user.input.test.ts">
     <testCase name="updates state on user input" duration="8"/>
   </file>
 </testExecutions>

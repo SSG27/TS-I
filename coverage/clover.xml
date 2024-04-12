@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704449956746" clover="3.2.0">
-  <project timestamp="1704449956746" name="All files">
+<coverage generated="1712917644870" clover="3.2.0">
+  <project timestamp="1712917644870" name="All files">
     <metrics statements="39" coveredstatements="9" conditionals="16" coveredconditionals="5" methods="12" coveredmethods="1" elements="67" coveredelements="15" complexity="0" loc="39" ncloc="39" packages="1" files="1" classes="1"/>
-    <file name="App.tsx" path="/Users/sanjughandhi/Documents/TSI /React App/Movie/src/App.tsx">
+    <file name="App.tsx" path="/Users/sanjughandhi/Documents/GitHub/TS-I/src/App.tsx">
       <metrics statements="39" coveredstatements="9" conditionals="16" coveredconditionals="5" methods="12" coveredmethods="1"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>

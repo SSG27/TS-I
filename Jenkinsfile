@@ -1,9 +1,13 @@
 pipeline {
+
     agent any
+
     tools {
         nodejs "NodeJS"
     }
+    
     stages {
+
         stage('Clone repo') {
             steps {
                 // clone the repository
@@ -29,10 +33,18 @@ pipeline {
             }
         }
         
+        stage('Jest') {
+            steps{
+                sh 'npm run test'
+            }
+        }
+
         stage('Run npm run dev') {
             steps {
                 // Run 'npm run dev'
                 sh 'npm run dev'
+                input message: 'Finished using the web site? (Click "Proceed" to continue)' 
+                sh './jenkins/scripts/kill.sh'
             }
         }
     }
